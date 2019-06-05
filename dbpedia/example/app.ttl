@@ -1,0 +1,24 @@
+@prefix databus-sys: <https://databus.dbpedia.org/system/ns/core#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# Change "dbpedia" to your account name and "example" to your service identifier
+<https://databus.dbpedia.org/applications/dbpedia/example>
+      a                           databus-sys:Service ;
+      # The title of your service
+      dct:title                   "Example Application"@en ;
+      # Abstract of your service
+      dct:abstract                "A short description of the application in plain text"@en ;
+      # Long description of your service
+      dct:description             "A long description of the application in plain text."@en ;
+      # A small icon 128x128 px for your service
+      # Your databus account uri
+      databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
+      # Some HTML that hints to your service (such as a short description and a signup form)
+      databus-sys:modalText       "<h1>Example App</h1><p>The modal text as html</p>"^^rdf:HTML ;
+      # The URL that points to your service info page or signup form
+      databus-sys:signupUrl       "https://example.com/your-application-signup-form"@en ;
+      # Databus groups that can be used with your service
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
