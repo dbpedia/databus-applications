@@ -13,9 +13,9 @@
       # Long description of your service
       dct:description             "A long description of the application in plain text."@en ;
       # A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-applications/master/dbpedia/example/icon.png> ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-applications/master/img/icon.png> ;
       # A banner for your service (640x320 px)
-      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-applications/master/dbpedia/example/banner.png> ;
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-applications/master/img/banner.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
       # Some HTML that hints to your service (such as a short description and a signup form)
