@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 # Change "dbpedia" to your account name and "example" to your service identifier
-<https://databus.dbpedia.org/applications/dbpedia/example>
+<https://databus.dbpedia.org/system/services/dbpedia/example>
       a                           databus-sys:Service ;
       # The title of your service
       dct:title                   "Example Application"@en ;
@@ -13,13 +13,13 @@
       # Long description of your service
       dct:description             "A long description of the application in plain text."@en ;
       # A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-applications/master/img/icon.png> ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/icon.png> ;
       # A banner for your service (640x320 px)
-      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-applications/master/img/banner.png> ;
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
       # Some HTML that hints to your service (such as a short description and a signup form)
-      databus-sys:modalText       "<h1>Example App</h1><p>The modal text as html</p>"^^rdf:HTML ;
+      databus-sys:signupForm       "<h1>Example App</h1><p>The modal text as html</p>"^^rdf:HTML ;
       # The URL that points to your service info page or signup form
       databus-sys:signupUrl       <https://example.com/your-application-signup-form> ;
       # Databus groups that can be used with your service
