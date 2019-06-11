@@ -7,21 +7,21 @@
 <https://databus.dbpedia.org/system/services/dbpedia/example>
       a                           databus-sys:Service ;
       # The title of your service
-      dct:title                   "Example Application"@en ;
+      dct:title                   "DBpedia SPARQL Endpoint"@en ;
       # Abstract of your service
-      dct:abstract                "A short description of the application in plain text"@en ;
+      dct:abstract                "The official DBpedia SPARQL endpoint openly available at dbpedia.org."@en ;
       # Long description of your service
-      dct:description             "A long description of the application in plain text."@en ;
+      dct:description             "The SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against the entire linked data extraction of Wikipedia."@en ;
       # A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/icon.png> ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
-      # Some HTML that hints to your service (such as a short description and a signup form)
-      databus-sys:signupForm       "<h1>Example App</h1><p>The modal text as html</p>"^^rdf:HTML ;
+      # OPTIONAL: Some HTML that hints to your service (such as a short description and a signup form)
+      databus-sys:signupForm      "<h1>DBpedia SPARQL Endpoint App</h1><p>The modal text as html</p>"^^rdf:HTML ;
       # The URL that points to your service info page or signup form
-      databus-sys:signupUrl       <https://example.com/your-application-signup-form> ;
+      databus-sys:homepage        <https://dbpedia.org/sparql> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
