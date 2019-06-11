@@ -9,7 +9,7 @@
       # The title of your service
       dct:title                   "DBpedia SPARQL Endpoint"@en ;
       # Abstract of your service
-      dct:abstract                "The official DBpedia SPARQL endpoint openly available at dbpedia.org."@en ;
+      dct:abstract                "The official DBpedia SPARQL endpoint available at dbpedia.org."@en ;
       # Long description of your service
       dct:description             "The SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against the entire linked data extraction of Wikipedia."@en ;
       # A small icon 128x128 px for your service
