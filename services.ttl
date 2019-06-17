@@ -1,27 +1,42 @@
-@prefix databus-sys: <https://databus.dbpedia.org/system/ns/core#> .
+@prefix databus-sys: <https://databus.dbpedia.org/system/voc/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+databus-sys:Service a rdfs:Class .
+databus-sys:Shared a rdfs:Class ; rdfs:label "Shared: Free services, other usage might impact performance."@en .
+databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service level as agreed with provider."@en .
+
+
 # Change "dbpedia" to your account name and "example" to your service identifier
-<https://databus.dbpedia.org/system/services/dbpedia/example>
+<https://databus.dbpedia.org/system/service/dbpedia/main-endpoint>
       a                           databus-sys:Service ;
+      a 						  databus-sys:Shared ;	
       # The title of your service
-      dct:title                   "DBpedia SPARQL Endpoint"@en ;
-      # Abstract of your service
-      dct:abstract                "The official DBpedia SPARQL endpoint available at dbpedia.org."@en ;
+      dct:title                   "Official DBpedia SPARQL Endpoint and Linked Data Service"@en ;
+      
       # Long description of your service
-      dct:description             "The SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against the entire linked data extraction of Wikipedia."@en ;
+      dct:description             "<h1>Public DBpedia SPARQL Endpoint </h1> <p>The official DBpedia SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against dbpedia.org/sparql hosted by Virtuoso/OpenLink .</p>"^^rdf:HTML ;
+      
+      
       # A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
-      # OPTIONAL: Some HTML that hints to your service (such as a short description and a signup form)
-      databus-sys:signupForm      "<h1>DBpedia SPARQL Endpoint App</h1><p>The modal text as html</p>"^^rdf:HTML ;
+      
       # The URL that points to your service info page or signup form
-      databus-sys:homepage        <https://dbpedia.org/sparql> ;
+      databus-sys:homepage        <https://wiki.dbpedia.org/public-sparql-endpoint> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+
+      # TODO do we need this?
+      # Abstract of your service
+      # dct:abstract                "The official DBpedia SPARQL endpoint available at dbpedia.org/sparql"@en ;
+      # OPTIONAL: Some HTML that hints to your service (such as a short description and a signup form)
+      # databus-sys:signupForm      "<h1>DBpedia SPARQL Endpoint App</h1><p>The modal text as html</p>" ;
+      
+
+
