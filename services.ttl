@@ -60,4 +60,22 @@ databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service le
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+      
+      
+<https://databus.dbpedia.org/system/service/dbpedia/spotlight>
+      a                           databus-sys:Service ;
+      a 						  databus-sys:Shared ;	
+      dct:title                   "DBpedia Spotlight Entity Linker"@en ;
+      dct:description             "<h1>Spotlight entity linker</h1> <p>Enter text in multiple languages  and get links to DBpedia</p>"^^rdf:HTML ;
+      # A small icon 128x128 px for your service
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      # A banner for your service (640x320 px)
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
+      # Your databus account uri
+      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;  
+      # The URL that points to your service info page or signup form
+      databus-sys:homepage        <https://www.dbpedia-spotlight.org/demo/> ;
+      # Databus groups that can be used with your service
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
 
