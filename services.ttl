@@ -17,6 +17,7 @@ databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service le
 
       # Long description of your service
       dct:description             "<h1>Public DBpedia SPARQL Endpoint </h1> <p>The official DBpedia SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against dbpedia.org/sparql hosted by Virtuoso/OpenLink .</p>"^^rdf:HTML ;
+      dct:abstract                "The official DBpedia SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against dbpedia.org/sparql hosted by Virtuoso/OpenLink."@en ;
 
 
       # A small icon 128x128 px for your service
@@ -34,7 +35,6 @@ databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service le
 
       # TODO do we need this?
       # Abstract of your service
-      dct:abstract                "The official DBpedia SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against dbpedia.org/sparql hosted by Virtuoso/OpenLink."@en ;
       # OPTIONAL: Some HTML that hints to your service (such as a short description and a signup form)
       # databus-sys:signupForm      "<h1>DBpedia SPARQL Endpoint App</h1><p>The modal text as html</p>" ;
 
