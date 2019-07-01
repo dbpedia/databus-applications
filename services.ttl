@@ -11,21 +11,21 @@ databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service le
 # Change "dbpedia" to your account name and "example" to your service identifier
 <https://databus.dbpedia.org/system/service/dbpedia/main-endpoint>
       a                           databus-sys:Service ;
-      a 						  databus-sys:Shared ;	
+      a 						  databus-sys:Shared ;
       # The title of your service
       dct:title                   "Official DBpedia SPARQL Endpoint and Linked Data Service"@en ;
-      
+
       # Long description of your service
       dct:description             "<h1>Public DBpedia SPARQL Endpoint </h1> <p>The official DBpedia SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against dbpedia.org/sparql hosted by Virtuoso/OpenLink .</p>"^^rdf:HTML ;
-      
-      
+
+
       # A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
-      
+
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://wiki.dbpedia.org/public-sparql-endpoint> ;
       # Databus groups that can be used with your service
@@ -34,48 +34,49 @@ databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service le
 
       # TODO do we need this?
       # Abstract of your service
-      # dct:abstract                "The official DBpedia SPARQL endpoint available at dbpedia.org/sparql"@en ;
+      dct:abstract                "The official DBpedia SPARQL endpoint at dbpedia.org allows you to run SPARQL queries against dbpedia.org/sparql hosted by Virtuoso/OpenLink."@en ;
       # OPTIONAL: Some HTML that hints to your service (such as a short description and a signup form)
       # databus-sys:signupForm      "<h1>DBpedia SPARQL Endpoint App</h1><p>The modal text as html</p>" ;
-      
+
 <https://databus.dbpedia.org/system/service/openlink/aws>
       a                           databus-sys:Service ;
-      a 						  databus-sys:Dedicated ;	
+      a 						  databus-sys:Dedicated ;
       # The title of your service
       dct:title                   "DBpedia Snapshot (Virtuoso PAGO) AWS"@en ;
-      
+
       # Long description of your service
       dct:description             "<h1>Dedicated AWS DBpedia SPARQL</h1> <p>Dedicated AWS DBpedia SPARQL endpoint  provided by Virtuoso/OpenLink .</p>"^^rdf:HTML ;
-      
-      
+
+      dct:abstract                "Dedicated AWS DBpedia SPARQL endpoint  provided by Virtuoso/OpenLink."@en;
+
       # A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
-      
+
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://aws.amazon.com/marketplace/pp/B07BQKYGYQ> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
-      
-      
+
+
 <https://databus.dbpedia.org/system/service/dbpedia/spotlight>
       a                           databus-sys:Service ;
-      a 						  databus-sys:Shared ;	
+      a 						  databus-sys:Shared ;
       dct:title                   "DBpedia Spotlight Entity Linker"@en ;
       dct:description             "<h1>Spotlight entity linker</h1> <p>Enter text in multiple languages  and get links to DBpedia</p>"^^rdf:HTML ;
+      dct:abstract                "Enter text in multiple languages and get links to DBpedia."@en ;
       # A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
       # Your databus account uri
-      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;  
+      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://www.dbpedia-spotlight.org/demo/> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
-
