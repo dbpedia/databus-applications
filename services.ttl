@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 databus-sys:Service a rdfs:Class .
-databus-sys:Shared a rdfs:Class ; rdfs:label "Shared: Free services, other usage might impact performance."@en .
+databus-sys:Shared a rdfs:Class ; rdfs:label "Shared: Free services, other usage might impact performance. No guarantees."@en .
 databus-sys:Dedicated a rdfs:Class ; rdfs:label "Dedicated: Dedicated service level as agreed with provider."@en .
 
 
