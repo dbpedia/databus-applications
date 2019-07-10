@@ -7,7 +7,7 @@ databus-sys:Service a rdfs:Class .
 databus-sys:SharedService a rdfs:Class ;
       rdfs:subClassOf databus-sys:Service ;
       rdfs:label "Free shared services with no guarantees, other usage might impact performance. "@en .
-databus-sys:DedicatedService a rdfs:Class ; 
+databus-sys:DedicatedService a rdfs:Class ;
       rdfs:subClassOf databus-sys:Service ;
       rdfs:label "Dedicated service level as agreed by user with provider."@en .
 databus-sys:Application a rdfs:Class ;
@@ -16,7 +16,7 @@ databus-sys:Application a rdfs:Class ;
 # Change "dbpedia" to your account name and "example" to your service identifier
 <https://databus.dbpedia.org/system/service/dbpedia/main-endpoint>
       a                           databus-sys:Service ;
-      a 						  databus-sys:Shared ;
+      a 						  databus-sys:SharedService ;
       # The title of your service
       dct:title                   "Official DBpedia SPARQL Endpoint and Linked Data Service"@en ;
 
@@ -45,7 +45,7 @@ databus-sys:Application a rdfs:Class ;
 
 <https://databus.dbpedia.org/system/service/openlink/aws>
       a                           databus-sys:Service ;
-      a 						  databus-sys:Dedicated ;
+      a 						  databus-sys:DedicatedService ;
       # The title of your service
       dct:title                   "DBpedia Snapshot (Virtuoso PAGO) AWS"@en ;
 
@@ -57,7 +57,7 @@ databus-sys:Application a rdfs:Class ;
       # A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # A banner for your service (640x320 px)
-      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
       # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
 
@@ -70,7 +70,7 @@ databus-sys:Application a rdfs:Class ;
 
 <https://databus.dbpedia.org/system/service/dbpedia/spotlight>
       a                           databus-sys:Service ;
-      a 						  databus-sys:Shared ;
+      a 						  databus-sys:SharedService ;
       dct:title                   "DBpedia Spotlight Entity Linker"@en ;
       dct:description             "<h1>Spotlight entity linker</h1> <p>Enter text in multiple languages  and get links to DBpedia</p>"^^rdf:HTML ;
       dct:abstract                "Enter text in multiple languages and get links to DBpedia."@en ;
