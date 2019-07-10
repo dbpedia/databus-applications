@@ -55,7 +55,7 @@ databus-sys:Application a rdfs:Class ;
       dct:abstract                "Dedicated AWS DBpedia SPARQL endpoint  provided by Virtuoso/OpenLink."@en;
 
       # A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
       # Your databus account uri
