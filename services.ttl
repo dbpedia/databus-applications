@@ -103,5 +103,5 @@ databus-sys:Application a rdfs:Class ;
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://wiki.dbpedia.org/timbr> ;
       # Databus groups that can be used with your service
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki/test> .
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> .
 
