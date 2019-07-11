@@ -85,3 +85,23 @@ databus-sys:Application a rdfs:Class ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+
+<https://databus.dbpedia.org/system/service/timbr/timbr-dbpedia>
+      a                           databus-sys:Service ;
+      a 			          databus-sys:DedicatedService ;
+      dct:title                   "timbr-DBpedia SQL Query Service"@en ;
+      dct:description             "<h1>Hosted DBpedia Data in timbr SQL Knowledge Graph</h1> <p>Query DBpedia knowledge directly in SQL.</p>"^^rdf:HTML ;
+      dct:abstract                "Query DBpedia knowledge directly in SQL."@en;
+
+      # A small icon 128x128 px for your service
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sql_icon.png> ;
+      # A banner for your service (640x320 px)
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sql_banner.png> ;
+      # Your databus account uri
+      databus-sys:publisher       <https://databus.dbpedia.org/timbr> ;
+
+      # The URL that points to your service info page or signup form
+      databus-sys:homepage        <https://wiki.dbpedia.org/timbr> ;
+      # Databus groups that can be used with your service
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki/test> .
+
