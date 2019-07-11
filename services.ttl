@@ -36,6 +36,7 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:homepage        <https://wiki.dbpedia.org/public-sparql-endpoint> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
 
       # TODO do we need this?
@@ -65,6 +66,7 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:homepage        <https://aws.amazon.com/marketplace/pp/B07BQKYGYQ> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
 
 
@@ -84,6 +86,7 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:homepage        <https://www.dbpedia-spotlight.org/demo/> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
 
 <https://databus.dbpedia.org/system/service/timbr/timbr-dbpedia>
