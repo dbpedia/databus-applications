@@ -9,7 +9,7 @@ databus-sys:SharedService a rdfs:Class ;
       rdfs:label "Free shared services with no guarantees, other usage might impact performance. "@en .
 databus-sys:DedicatedService a rdfs:Class ;
       rdfs:subClassOf databus-sys:Service ;
-      rdfs:label "Dedicated service level as agreed by user with provider."@en .
+      rdfs:label "Dedicated service level as offered by provider."@en .
 databus-sys:Application a rdfs:Class ;
       rdfs:label "Application for local deployment, loading data from the bus"@en .
 
