@@ -14,7 +14,7 @@ databus-sys:Application a rdfs:Class ;
       rdfs:label "Application for local deployment, loading data from the bus"@en .
 
 # Change "dbpedia" to your account name and "example" to your service identifier
-<https://databus.dbpedia.org/system/service/dbpedia/main-endpoint>
+<https://databus.dbpedia.org/system/service/openlink/main-endpoint>
       a                           databus-sys:Service ;
       a 						  databus-sys:SharedService ;
       # The title of your service
