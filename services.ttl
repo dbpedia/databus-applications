@@ -97,7 +97,7 @@ databus-sys:Application a rdfs:Class ;
       dct:abstract                "Query DBpedia knowledge directly in SQL."@en;
 
       # A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sql_icon.png> ;
+      databus-sys:icon            <https://wp-dbpedia.s3.amazonaws.com/images/sql_icon.png> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sql_banner.png> ;
       # Your databus account uri
