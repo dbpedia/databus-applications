@@ -30,7 +30,7 @@ databus-sys:Application a rdfs:Class ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
       # Your databus account uri
-      databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
+      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
 
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://wiki.dbpedia.org/public-sparql-endpoint> ;
@@ -81,7 +81,7 @@ databus-sys:Application a rdfs:Class ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
       # Your databus account uri
-      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
+      databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://www.dbpedia-spotlight.org/demo/> ;
       # Databus groups that can be used with your service
