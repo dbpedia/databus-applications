@@ -47,24 +47,30 @@ databus-sys:Application a rdfs:Class ;
 <https://databus.dbpedia.org/system/service/openlink/aws>
       a                           databus-sys:Service ;
       a 						  databus-sys:DedicatedService ;
-      # The title of your service
       dct:title                   "DBpedia Snapshot (Virtuoso PAGO) AWS"@en ;
-
-      # Long description of your service
       dct:description             "<h1>Dedicated AWS DBpedia SPARQL</h1> <p>Dedicated AWS DBpedia SPARQL endpoint  provided by Virtuoso/OpenLink .</p>"^^rdf:HTML ;
-
       dct:abstract                "Dedicated AWS DBpedia SPARQL endpoint  provided by Virtuoso/OpenLink."@en;
-
-      # A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
-      # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
-      # Your databus account uri
       databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
-
-      # The URL that points to your service info page or signup form
+      # todo move to wiki.dbpedia.org
       databus-sys:homepage        <https://aws.amazon.com/marketplace/pp/B07BQKYGYQ> ;
       # Databus groups that can be used with your service
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+      
+<https://databus.dbpedia.org/system/service/openlink/aws-live>
+      a                           databus-sys:Service ;
+      a 						  databus-sys:DedicatedService ;
+      dct:title                   "DBpedia Live (Virtuoso PAGO) AWS"@en ;
+      dct:description             "<h1>Live Updated DBpedia Endpoint</h1> <p>Dedicated AWS DBpedia-Live SPARQL endpoint  provided by Virtuoso/OpenLink .</p>"^^rdf:HTML ;
+      dct:abstract                "Dedicated AWS DBpedia-Live SPARQL endpoint provided by Virtuoso/OpenLink."@en;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/openlink-logo.png> ;
+      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
+      # TODO move to wiki.dbpedia.org
+      databus-sys:homepage        <https://aws.amazon.com/marketplace/pp/B012DSCFEK> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
