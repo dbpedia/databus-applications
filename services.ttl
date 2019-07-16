@@ -95,6 +95,24 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
 
+<https://databus.dbpedia.org/system/service/imec/fragments>
+      a                           databus-sys:Service ;
+      a 				    databus-sys:SharedService ;
+      dct:title                   "Linked Data Fragments over DBpedia"@en ;
+      dct:description             "<h1>TODO</h1> <p>TODO</p>"^^rdf:HTML ;
+      dct:abstract                "TODO"@en ;
+      # TODO A small icon 128x128 px for your service
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      # TODO A banner for your service (640x320 px)
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
+      # TODO imec or RV? Databus account needs foaf profile
+      databus-sys:publisher       <https://databus.dbpedia.org/imec> ;
+      # TODO should eventually point to 
+      databus-sys:homepage        <http://fragments.dbpedia.org> ;
+      # Databus groups that can be used with your service
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> .
+
+
 <https://databus.dbpedia.org/system/service/timbr/timbr-dbpedia>
       a                           databus-sys:Service ;
       a 			          databus-sys:DedicatedService ;
