@@ -83,7 +83,7 @@ databus-sys:Application a rdfs:Class ;
       dct:description             "<h1>Spotlight entity linker</h1> <p>Enter text in multiple languages  and get links to DBpedia</p>"^^rdf:HTML ;
       dct:abstract                "Enter text in multiple languages and get links to DBpedia."@en ;
       # A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
       # A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
       # Your databus account uri
@@ -99,8 +99,8 @@ databus-sys:Application a rdfs:Class ;
       a                           databus-sys:Service ;
       a 				    databus-sys:SharedService ;
       dct:title                   "Linked Data Fragments over DBpedia"@en ;
-      dct:description             "<h1>TODO</h1> <p>TODO</p>"^^rdf:HTML ;
-      dct:abstract                "TODO"@en ;
+      dct:description             "<h1>Linked Data Fragments over DBpedia</h1> <p></p>"^^rdf:HTML ;
+      dct:abstract                "Linked Data Fragments over DBpedia"@en ;
       # TODO A small icon 128x128 px for your service
       databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
       # TODO A banner for your service (640x320 px)
