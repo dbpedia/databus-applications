@@ -157,7 +157,7 @@ databus-sys:Application a rdfs:Class ;
       dct:description             "<h1>Linked Data Fragments over DBpedia</h1> <p></p>"^^rdf:HTML ;
       dct:abstract                "Linked Data Fragments over DBpedia"@en ;
       # TODO A small icon 128x128 px for your service
-      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/ldf.png> ;
       # TODO A banner for your service (640x320 px)
       databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/dbpedia_spotlight_logo.jpg> ;
       # TODO imec or RV? Databus account needs foaf profile
