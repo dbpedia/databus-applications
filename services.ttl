@@ -45,6 +45,38 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
+# Change "dbpedia" to your account name and "example" to your service identifier
+<https://databus.dbpedia.org/system/service/openlink/live-sparql-endpoint>
+      a                           databus-sys:Service ;
+      a 				    databus-sys:SharedService ;
+      # The title of your service
+      dct:title                   "Live-Updated DBpedia SPARQL Endpoint and Linked Data Service"@en ;
+
+      # Long description of your service
+      dct:description             "<h1>Public DBpedia Live Updates </h1> <p>Live updated whenever a Wikipedia article changes, DBpedia Live SPARQL Endpoint.</p>"^^rdf:HTML ;
+      dct:abstract                "Live updated whenever a Wikipedia article changes, DBpedia Live SPARQL Endpoint hosted by Virtuoso/OpenLink."@en ;
+
+
+      # A small icon 128x128 px for your service
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      # A banner for your service (640x320 px)
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
+      # Your databus account uri
+      databus-sys:publisher       <https://databus.dbpedia.org/openlink> ;
+
+      # The URL that points to your service info page or signup form
+      databus-sys:homepage        <https://wiki.dbpedia.org/online-access/DBpediaLive> ;
+      # Databus groups that can be used with your service
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
+
       # TODO do we need this?
       # Abstract of your service
       # OPTIONAL: Some HTML that hints to your service (such as a short description and a signup form)
