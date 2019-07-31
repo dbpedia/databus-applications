@@ -36,8 +36,14 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:homepage        <https://wiki.dbpedia.org/public-sparql-endpoint> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
       # TODO do we need this?
       # Abstract of your service
@@ -57,8 +63,14 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:homepage        <https://aws.amazon.com/marketplace/pp/B07BQKYGYQ> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
       
 <https://databus.dbpedia.org/system/service/openlink/aws-live>
       a                           databus-sys:Service ;
@@ -72,9 +84,14 @@ databus-sys:Application a rdfs:Class ;
       # TODO move to wiki.dbpedia.org
       databus-sys:homepage        <https://aws.amazon.com/marketplace/pp/B012DSCFEK> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
-
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
 <https://databus.dbpedia.org/system/service/dbpedia/spotlight>
       a                           databus-sys:Service ;
@@ -92,8 +109,14 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:homepage        <https://www.dbpedia-spotlight.org/demo/> ;
       # Databus groups that can be used with your service
       databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> ;
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> .
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
 <https://databus.dbpedia.org/system/service/imec/fragments>
       a                           databus-sys:Service ;
@@ -110,7 +133,15 @@ databus-sys:Application a rdfs:Class ;
       # TODO should eventually point to 
       databus-sys:homepage        <http://fragments.dbpedia.org> ;
       # Databus groups that can be used with your service
-      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> .
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
 
 <https://databus.dbpedia.org/system/service/timbr/timbr-dbpedia>
@@ -130,5 +161,15 @@ databus-sys:Application a rdfs:Class ;
       # The URL that points to your service info page or signup form
       databus-sys:homepage        <https://wiki.dbpedia.org/timbr> ;
       # Databus groups that can be used with your service
-      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wiki> .
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/prefusion> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/fusion> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/text> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/transition> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/ontology> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/dbpedia/wikidata> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/mappings> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
