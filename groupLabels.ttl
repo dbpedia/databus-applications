@@ -1,0 +1,35 @@
+#
+# Link to check which groups do not have a label
+# https://databus.dbpedia.org/yasgui/#query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+prov%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%0APREFIX+dataid%3A+%3Chttp%3A%2F%2Fdataid.dbpedia.org%2Fns%2Fcore%23%3E%0APREFIX+dcat%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0A%0ASELECT+distinct+%3Fgroup+WHERE+%7B%0A++%0A++%3Fdataset+dataid%3Agroup+%3Fgroup+.+%0A++FILTER+NOT+EXISTS+%7B%3Fgroup+rdfs%3Alabel+%3Flabel+%7D%0A++%0A%7D+Order+by+%3Fgroup+%0A&contentTypeConstruct=text%2Fturtle&contentTypeSelect=application%2Fsparql-results%2Bjson&endpoint=https%3A%2F%2Fdatabus.dbpedia.org%2Frepo%2Fsparql&requestMethod=POST&tabTitle=Query+3&headers=%7B%7D&outputFormat=table
+# Link to check which groups do not have a comment
+# https://databus.dbpedia.org/yasgui/#query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+prov%3A+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%0APREFIX+dataid%3A+%3Chttp%3A%2F%2Fdataid.dbpedia.org%2Fns%2Fcore%23%3E%0APREFIX+dcat%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0A%0ASELECT+distinct+%3Fgroup+WHERE+%7B%0A++%0A++%3Fdataset+dataid%3Agroup+%3Fgroup+.+%0A++FILTER+NOT+EXISTS+%7B%3Fgroup+rdfs%3Acomment+%3Flabel+%7D%0A++%0A%7D+Order+by+%3Fgroup+%0A&contentTypeConstruct=text%2Fturtle&contentTypeSelect=application%2Fsparql-results%2Bjson&endpoint=https%3A%2F%2Fdatabus.dbpedia.org%2Frepo%2Fsparql&requestMethod=POST&tabTitle=Query+3&headers=%7B%7D&outputFormat=table
+
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix databus: <https://databus.dbpedia.org/> .
+
+
+<http://databus.dbpedia.org/databus_test/gfs> rdfs:label "Test for GlobalFactSync" . 
+<http://databus.dbpedia.org/dbpedia/databus> rdfs:label "Databus related data" .
+<http://databus.dbpedia.org/dbpedia/enrichment> rdfs:label "Enriched data by FlexiFusion" .
+<http://databus.dbpedia.org/dbpedia/fusion> rdfs:label "FlexiFused data" .
+<http://databus.dbpedia.org/dbpedia/generic> rdfs:label "Wikipedia Extraction with Generic Parsers" .
+<http://databus.dbpedia.org/dbpedia/generic> rdfs:comment "Structured data from Wikipedia extracted by the several Generic Extractors from the DBpedia Information Extraction Framework (DIEF)." .
+<http://databus.dbpedia.org/dbpedia/id-management> rdfs:label "ID-Management" .
+<http://databus.dbpedia.org/dbpedia/mappings> rdfs:label "Wikipedia Extraction using MappingExtractor" .
+<http://databus.dbpedia.org/dbpedia/mappings> rdfs:comment "Structured data from Wikipedia extracted by the MappingExtractor from the DBpedia Information Extraction Framework (DIEF)." .
+<http://databus.dbpedia.org/dbpedia/ontology> rdfs:label "DBpedia Ontology" .
+<http://databus.dbpedia.org/dbpedia/ontology> rdfs:comment "(in development) Snapshots of the DBpedia Ontology and data related to the ontology." .
+<http://databus.dbpedia.org/dbpedia/prefusion> rdfs:label "Aggregated data from other groups in prefusion state" .
+<http://databus.dbpedia.org/dbpedia/text> rdfs:label "Wikipedia Extraction of Textual Content" .
+<http://databus.dbpedia.org/dbpedia/text> rdfs:comment "(under maintenance) Abstracts and other text-related data (surface forms, NIF) from Wikipedia extracted by the  several extractors from the DBpedia Information Extraction Framework (DIEF)" .
+<http://databus.dbpedia.org/dbpedia/transition> rdfs:label "Transition Legacy Data" .
+<http://databus.dbpedia.org/dbpedia/wikidata> rdfs:label "Wikidata Extraction" .
+<http://databus.dbpedia.org/dbpedia/wikidata> rdfs:comment "Structured data from Wikidata extracted and mapped by the WikidataExtractor from the DBpedia Information Extraction Framework (DIEF)" .
+<http://databus.dbpedia.org/marvin/generic> rdfs:label "Raw (unparsed, uncleaned) Wikipedia Extraction with Generic Parsers" .
+<http://databus.dbpedia.org/marvin/mappings> rdfs:comment "Raw (unparsed, uncleaned) Wikipedia Extraction using MappingExtractor" .
+<http://databus.dbpedia.org/marvin/wiki> rdfs:label "Some tests" .
+<http://databus.dbpedia.org/marvin/wikidata> rdfs:label "Raw (unparsed, uncleaned) Wikidata Extraction" .
+<http://databus.dbpedia.org/propan/lhd> rdfs:label "Linked Hypernym Data" .
+<http://databus.dbpedia.org/white_gecko/backups> rdfs:label "backups" .
+
