@@ -6,30 +6,29 @@
 
 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix databus: <https://databus.dbpedia.org/> .
 
 
-<http://databus.dbpedia.org/databus_test/gfs> rdfs:label "Test for GlobalFactSync" . 
-<http://databus.dbpedia.org/dbpedia/databus> rdfs:label "Databus related data" .
-<http://databus.dbpedia.org/dbpedia/enrichment> rdfs:label "Enriched data by FlexiFusion" .
-<http://databus.dbpedia.org/dbpedia/fusion> rdfs:label "FlexiFused data" .
-<http://databus.dbpedia.org/dbpedia/generic> rdfs:label "Wikipedia Extraction with Generic Parsers" .
-<http://databus.dbpedia.org/dbpedia/generic> rdfs:comment "Structured data from Wikipedia extracted by the several Generic Extractors from the DBpedia Information Extraction Framework (DIEF)." .
-<http://databus.dbpedia.org/dbpedia/id-management> rdfs:label "ID-Management" .
-<http://databus.dbpedia.org/dbpedia/mappings> rdfs:label "Wikipedia Extraction using MappingExtractor" .
-<http://databus.dbpedia.org/dbpedia/mappings> rdfs:comment "Structured data from Wikipedia extracted by the MappingExtractor from the DBpedia Information Extraction Framework (DIEF)." .
-<http://databus.dbpedia.org/dbpedia/ontology> rdfs:label "DBpedia Ontology" .
-<http://databus.dbpedia.org/dbpedia/ontology> rdfs:comment "(in development) Snapshots of the DBpedia Ontology and data related to the ontology." .
-<http://databus.dbpedia.org/dbpedia/prefusion> rdfs:label "Aggregated data from other groups in prefusion state" .
-<http://databus.dbpedia.org/dbpedia/text> rdfs:label "Wikipedia Extraction of Textual Content" .
-<http://databus.dbpedia.org/dbpedia/text> rdfs:comment "(under maintenance) Abstracts and other text-related data (surface forms, NIF) from Wikipedia extracted by the  several extractors from the DBpedia Information Extraction Framework (DIEF)" .
-<http://databus.dbpedia.org/dbpedia/transition> rdfs:label "Transition Legacy Data" .
-<http://databus.dbpedia.org/dbpedia/wikidata> rdfs:label "Wikidata Extraction" .
-<http://databus.dbpedia.org/dbpedia/wikidata> rdfs:comment "Structured data from Wikidata extracted and mapped by the WikidataExtractor from the DBpedia Information Extraction Framework (DIEF)" .
-<http://databus.dbpedia.org/marvin/generic> rdfs:label "Raw (unparsed, uncleaned) Wikipedia Extraction with Generic Parsers" .
-<http://databus.dbpedia.org/marvin/mappings> rdfs:comment "Raw (unparsed, uncleaned) Wikipedia Extraction using MappingExtractor" .
-<http://databus.dbpedia.org/marvin/wiki> rdfs:label "Some tests" .
-<http://databus.dbpedia.org/marvin/wikidata> rdfs:label "Raw (unparsed, uncleaned) Wikidata Extraction" .
-<http://databus.dbpedia.org/propan/lhd> rdfs:label "Linked Hypernym Data" .
-<http://databus.dbpedia.org/white_gecko/backups> rdfs:label "backups" .
+<https://databus.dbpedia.org/databus_test/gfs> rdfs:label "Test for GlobalFactSync" . 
+<https://databus.dbpedia.org/dbpedia/databus> rdfs:label "Databus related data" .
+<https://databus.dbpedia.org/dbpedia/enrichment> rdfs:label "Enriched data by FlexiFusion" .
+<https://databus.dbpedia.org/dbpedia/fusion> rdfs:label "FlexiFused data" .
+<https://databus.dbpedia.org/dbpedia/generic> rdfs:label "Wikipedia Extraction with Generic Parsers" .
+<https://databus.dbpedia.org/dbpedia/generic> rdfs:comment "Structured data from Wikipedia extracted by the several Generic Extractors from the DBpedia Information Extraction Framework (DIEF)." .
+<https://databus.dbpedia.org/dbpedia/id-management> rdfs:label "ID-Management" .
+<https://databus.dbpedia.org/dbpedia/mappings> rdfs:label "Wikipedia Extraction using MappingExtractor" .
+<https://databus.dbpedia.org/dbpedia/mappings> rdfs:comment "Structured data from Wikipedia extracted by the MappingExtractor from the DBpedia Information Extraction Framework (DIEF)." .
+<https://databus.dbpedia.org/dbpedia/ontology> rdfs:label "DBpedia Ontology" .
+<https://databus.dbpedia.org/dbpedia/ontology> rdfs:comment "(in development) Snapshots of the DBpedia Ontology and data related to the ontology." .
+<https://databus.dbpedia.org/dbpedia/prefusion> rdfs:label "Aggregated data from other groups in prefusion state" .
+<https://databus.dbpedia.org/dbpedia/text> rdfs:label "Wikipedia Extraction of Textual Content" .
+<https://databus.dbpedia.org/dbpedia/text> rdfs:comment "(under maintenance) Abstracts and other text-related data (surface forms, NIF) from Wikipedia extracted by the  several extractors from the DBpedia Information Extraction Framework (DIEF)" .
+<https://databus.dbpedia.org/dbpedia/transition> rdfs:label "Transition Legacy Data" .
+<https://databus.dbpedia.org/dbpedia/wikidata> rdfs:label "Wikidata Extraction" .
+<https://databus.dbpedia.org/dbpedia/wikidata> rdfs:comment "Structured data from Wikidata extracted and mapped by the WikidataExtractor from the DBpedia Information Extraction Framework (DIEF)" .
+<https://databus.dbpedia.org/marvin/generic> rdfs:label "Raw (unparsed, uncleaned) Wikipedia Extraction with Generic Parsers" .
+<https://databus.dbpedia.org/marvin/mappings> rdfs:comment "Raw (unparsed, uncleaned) Wikipedia Extraction using MappingExtractor" .
+<https://databus.dbpedia.org/marvin/wiki> rdfs:label "Some tests" .
+<https://databus.dbpedia.org/marvin/wikidata> rdfs:label "Raw (unparsed, uncleaned) Wikidata Extraction" .
+<https://databus.dbpedia.org/propan/lhd> rdfs:label "Linked Hypernym Data" .
+<https://databus.dbpedia.org/white_gecko/backups> rdfs:label "backups" .
 
