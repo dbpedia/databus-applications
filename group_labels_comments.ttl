@@ -26,6 +26,7 @@
 <https://databus.dbpedia.org/dbpedia/wikidata> rdfs:label "Wikidata Extraction" .
 <https://databus.dbpedia.org/dbpedia/wikidata> rdfs:comment "Structured data from Wikidata extracted and mapped by the WikidataExtractor from the DBpedia Information Extraction Framework (DIEF)" .
 <https://databus.dbpedia.org/marvin/generic> rdfs:label "Raw (unparsed, uncleaned) Wikipedia Extraction with Generic Parsers" .
+<https://databus.dbpedia.org/marvin/mappings> rdfs:label "Raw (unparsed, uncleaned) Wikipedia Extraction using MappingExtractor" .
 <https://databus.dbpedia.org/marvin/mappings> rdfs:comment "Raw (unparsed, uncleaned) Wikipedia Extraction using MappingExtractor" .
 <https://databus.dbpedia.org/marvin/wiki> rdfs:label "Some tests" .
 <https://databus.dbpedia.org/marvin/wikidata> rdfs:label "Raw (unparsed, uncleaned) Wikidata Extraction" .
