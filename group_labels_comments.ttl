@@ -32,4 +32,5 @@
 <https://databus.dbpedia.org/marvin/wikidata> rdfs:label "Raw (unparsed, uncleaned) Wikidata Extraction" .
 <https://databus.dbpedia.org/propan/lhd> rdfs:label "Linked Hypernym Data" .
 <https://databus.dbpedia.org/white_gecko/backups> rdfs:label "backups" .
-
+<https://databus.dbpedia.org/denis/ontology> rdfs:label "Ontology Trackers" .
+<https://databus.dbpedia.org/denis/ontology> rdfs:comment "Ontology Trackers" .
