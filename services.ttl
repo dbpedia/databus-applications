@@ -8,12 +8,16 @@ databus-sys:Service a rdfs:Class .
 databus-sys:SharedService a rdfs:Class ;
       rdfs:subClassOf databus-sys:Service ;
       rdfs:label "Free, shared service"@en .
-      rdfs:comment "Free shared services with no guarantees, other usage might impact performance. "@en ;
-      dct:description """There is an inherent deterioration of Common goods, which are defined in economics as goods that are rivalrous and non-excludable. Similar to overfishing the ocean, database performance is limited by the allocated servers. Scalability incurs an increasing cost burden proportional to popularity as the number of daily concurrent requests grows. "@en .
+      rdfs:comment "Free, shared service with no guarantees, other usage and popularity might deteriaorate performance. "@en ;
+      dct:description """There is an inherent deterioration of Common goods, which are defined in economics as goods that are rivalrous and non-excludable. Similar to overfishing the ocean, database performance is limited by the allocated servers. Scalability incurs an increasing cost burden proportional to popularity as the number of daily concurrent requests grows. Databus builds on community effort and it is unfair to expect 100% uptime or increasing performance with popularity. 
+"""@en .
 
 databus-sys:DedicatedService a rdfs:Class ;
       rdfs:subClassOf databus-sys:Service ;
       rdfs:label "Dedicated service level as offered by provider."@en .
+
+
+
 databus-sys:Application a rdfs:Class ;
       rdfs:label "Application for local deployment, loading data from the bus"@en .
 
