@@ -52,6 +52,19 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/generic> ;
       databus-sys:targetGroup     <https://databus.dbpedia.org/marvin/wikidata> . 
 
+<https://databus.dbpedia.org/system/service/sven-h/dbkwik-endpoint>
+      a                           databus-sys:Service ;
+      a 						  databus-sys:SharedService ;
+      dct:title                   "SPARQL Enpoint for DBkWik and Linked Data Service"@en ;
+      dct:description             "<h1>DBkWik SPARQL endpoint</h1> <p>see http://dbkwik.webdatacommons.org/</p>"^^rdf:HTML ;
+      dct:abstract                "We provide a SPARQL and Linked Data endpoint using derefencable URIs. To browse the LOD enpoint, use, e.g., the concept Harry Potter http://dbkwik.webdatacommons.org/resource/l8JEtiYov-za7R0r8_wo3Q==."@en ;
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
+      databus-sys:publisher       <https://databus.dbpedia.org/sven-h> ;
+      databus-sys:homepage        <http://dbkwik.webdatacommons.org/sparql> ;
+      databus-sys:targetGroup     <https://databus.dbpedia.org/sven-h/dbkwik> .
+
+
 # Change "dbpedia" to your account name and "example" to your service identifier
 <https://databus.dbpedia.org/system/service/openlink/live-sparql-endpoint>
       a                           databus-sys:Service ;
