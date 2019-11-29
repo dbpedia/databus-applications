@@ -1,1 +1,3 @@
+databus-sys:Application a rdfs:Class ;
+      rdfs:label "Application for local deployment, loading data from the bus"@en .
 
