@@ -25,5 +25,5 @@ databus-sys:Application a rdfs:Class ;
       databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
 
       # The URL that points to your service info page or signup form
-      databus-sys:homepage        <https://github.com/dbpedia/lookup-application> ;
+      databus-sys:homepage        <https://github.com/dbpedia/lookup-application> .
      
