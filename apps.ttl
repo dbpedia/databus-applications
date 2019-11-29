@@ -1,3 +1,29 @@
+@prefix databus-sys: <https://databus.dbpedia.org/system/voc/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
 databus-sys:Application a rdfs:Class ;
       rdfs:label "Application for local deployment, loading data from the bus"@en .
 
+# Change "dbpedia" to your account name and "example" to your service identifier
+<https://databus.dbpedia.org/dbpedia/apps/lookup>
+      a                           databus-sys:Application ;
+      # The title of your service
+      dct:title                   "DBpedia Lookup Application"@en ;
+
+      # Long description of your service
+      dct:description             "<h1>DBpedia Lookup Application</h1> <p>Use SPARQL queries to build a dockerized lucene index for fast entity retrieval.</p>"^^rdf:HTML ;
+      dct:abstract                "Use SPARQL queries to build a dockerized lucene index for fast entity retrieval."@en ;
+
+
+      # A small icon 128x128 px for your service
+      databus-sys:icon            <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/sparql.png> ;
+      # A banner for your service (640x320 px)
+      databus-sys:banner          <https://raw.githubusercontent.com/dbpedia/databus-content/master/img/banner.png> ;
+      # Your databus account uri
+      databus-sys:publisher       <https://databus.dbpedia.org/dbpedia> ;
+
+      # The URL that points to your service info page or signup form
+      databus-sys:homepage        <https://github.com/dbpedia/lookup-application> ;
+     
